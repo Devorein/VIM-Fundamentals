@@ -1,0 +1,47 @@
+title: Files & Navigation - NetRW
+subject: Vim
+questions:
+  - question: What is NetRW ?
+    options:
+      - A file tree plugin
+      - A line number plugin
+      - A code snippet plugin
+      - An autocomplete plugin
+    answers:
+      - 0
+  - question: Which command is used to open up the explore window?
+    answers:
+      - - text: :Ex
+  - question: Which command is used to vertically open up a explore window ?
+    answers:
+      - - text: :Vex
+  - question: Which command is used to horizontally open up a explore window ?
+    answers:
+      - - text: :Sex
+  - question: Which command is used to horizontally split the same window ?
+    answers:
+      - - text: :S
+  - question: Which command is used to do a vertical split in vim ?
+    options:
+      - Ctrl + w + v
+      - Ctrl + w + s
+      - Ctrl + w + q
+      - Ctrl + w + a
+      - Ctrl + w + d
+    answers:
+      - 0
+  - question: Which command is used to do a horizontal split in vim ?
+    options:
+      - Ctrl + w + s
+      - Ctrl + w + v
+      - Ctrl + w + q
+      - Ctrl + w + a
+      - Ctrl + w + d
+    answers:
+      - 0
+  - question: Which command closes all the buffer except for the current active one ?
+    options:
+      - Ctrl + w + o
+      - Ctrl + w + w
+      - Ctrl + w + q
+      - Ctrl + w + c
