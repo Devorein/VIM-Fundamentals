@@ -1,0 +1,36 @@
+title: Basic Navigations
+subject: Vim
+questions:
+  - question: Which mode must you be in to quit in vim ?
+    options:
+      - normal
+      - insert
+      - visual
+      - command
+    answers:
+      - 0
+  - question: Write the command to quit a file without saving it
+    answers:
+      - - text: :q!
+  - question: Write the command to quit a file after saving it
+    answers:
+      - - text: :wq
+  - question: Which key combination should be pressed to move up, down, left, up, right
+    options:
+      - k j h k l
+      - h j k h l
+      - l k j l h
+    answers:
+      - 0
+  - question: Which key will delete a single character underneath cursor ?
+    answers:
+      - - text: x
+  - question: Which key combination will center the cursor ?
+    answers:
+      - - text: zz
+  - question: Which key is used to move to the next non white space character ?
+    answers:
+      - - text: w
+  - question: Which key is used to move to the previous non white space character ?
+    answers:
+      - - text: b
