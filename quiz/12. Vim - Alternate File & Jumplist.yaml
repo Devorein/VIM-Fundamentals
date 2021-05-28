@@ -1,0 +1,16 @@
+subject: Vim
+title: Alternate File & Jumplist
+questions:
+  - question: Which key is used to indicate the current file ?
+    answers:
+      - - text: "%"
+  - question: Which key is used to refer to the last file ?
+    answers:
+      - - text: "#"
+  - question: Which key is used to activate the jumplist?
+    answers:
+      - 0
+    options:
+      - Ctrl + o
+      - Ctrl + c
+      - Ctrl + j
