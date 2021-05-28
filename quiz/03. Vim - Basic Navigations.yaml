@@ -34,3 +34,9 @@ questions:
   - question: Which key is used to move to the previous non white space character ?
     answers:
       - - text: b
+  - question: Which key is used to move to the absolute bottom of the file
+    answers:
+      - - text: G
+  - question: Which key is used to move to the absolute top of the file
+    answers:
+      - - text: gg

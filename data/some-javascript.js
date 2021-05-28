@@ -1,11 +1,3 @@
----
-path: "/some-javascript"
-title: "some javascript"
-order: "72A"
-section: "Misc Content"
-description: "This is the first exercise to try out."
----
-
 // Delete the description.
 // That seems slow right?
 // <count>Delete

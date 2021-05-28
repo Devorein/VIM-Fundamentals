@@ -1,0 +1,9 @@
+title: Color Scheme
+subject: Vim
+questions:
+  - question: Set the colorscheme to blue
+    answers:
+      - - text: :colorscheme blue
+  - question: Write the command to set the colorscheme to `darkblue` in your .vimrc file
+    answers:
+      - - text: colorscheme darkblue
