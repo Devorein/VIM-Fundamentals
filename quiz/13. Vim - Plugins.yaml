@@ -25,3 +25,6 @@ questions:
   - question: map `:Giles` command to Ctrl + P
     answers:
       - - text: nnoremap <C p> :GFiles<CR>
+  - question: Which command is used to install a plugins?
+    answers:
+      - - text: :PlugInstall

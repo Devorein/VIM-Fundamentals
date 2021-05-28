@@ -1,0 +1,15 @@
+title: Search & Replace
+subject: Vim
+questions:
+  - question: Which character is used to enter into the search mode?
+    answers:
+      - - text: "/"
+  - question: Which character is used to navigate to the next search item ?
+    answers:
+      - - text: "n"
+  - question: Which character is used to navigate to the previous search item ?
+    answers:
+      - - text: N
+  - question: Search the whole for the word `err` and replace it with `error`
+    answers:
+      - - text: "%s/err/error"
