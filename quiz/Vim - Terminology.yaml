@@ -1,0 +1,30 @@
+title: Terminology
+subject: Vim
+questions:
+  - question: Which of the following is a representation of file in memory ?
+    options:
+      - buffer
+      - stream
+      - cache
+    answers:
+      - 0
+  - question: Which of the following displays a buffer ?
+    answers:
+      - - text: window
+          modifiers:
+            - IC
+  - question: Which command is used to go to help menu ?
+    answers:
+      - - text: :h
+  - question: What is the command that moves the cursor called ?
+    answers:
+      - - text: motion
+  - question: Which character does all commands start with ?
+    answers:
+      - - text: ":"
+  - question: Write the command to quit in vim
+    answers:
+      - - text: :q
+  - question: Write the command to open vim
+    answers:
+      - - text: vim

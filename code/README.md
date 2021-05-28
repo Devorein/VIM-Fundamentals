@@ -1,1 +1,0 @@
-# vim-nav-playground
