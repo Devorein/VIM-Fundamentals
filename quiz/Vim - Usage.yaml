@@ -1,0 +1,6 @@
+title: Usage
+subject: Vim
+questions:
+  - question: Open up `test.ts` in vim
+    answers:
+      - - text: vim test.ts
