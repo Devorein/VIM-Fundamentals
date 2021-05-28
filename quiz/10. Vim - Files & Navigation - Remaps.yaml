@@ -1,0 +1,27 @@
+title: Files & Navigation - Remaps
+subject: Vim
+questions:
+  - question: Set the leader to a space
+    answers:
+      - - text: let mapleader = " "
+          regex:
+            regex: let mapleader\s?=\s?" "
+  - question: |
+      Map the Vertical split explorer view command to `pv` with the following constraints
+      1. normal mode
+      2. no recursive execution
+    answers:
+      - - text: |
+            nnoremap <leader>pv :Vex<CR>
+  - question: Which command prevents the keymap to execute itself recursively ?
+    answers:
+      - - text: nore
+  - question: Does vim wait for a few second if the starting of a mapped command is pressed ?
+    answers:
+      - 0
+    options:
+      - True
+      - False
+  - question: Which command is used to source a file
+    answers:
+      - - text: so
