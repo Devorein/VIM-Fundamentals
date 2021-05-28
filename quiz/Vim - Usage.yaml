@@ -4,3 +4,42 @@ questions:
   - question: Open up `test.ts` in vim
     answers:
       - - text: vim test.ts
+  - question: Write the command to go into the insert mode?
+    answers:
+      - - text: i
+  - question: What is the default tab indent for vim ?
+    options:
+      - 4 spaces
+      - 2 spaces
+      - 8 spaces
+    answers:
+      - 0
+  - question: Which of the following are vim modes?
+    options:
+      - normal
+      - insert
+      - visual
+      - command
+      - modify
+    answers:
+      - 0
+      - 1
+      - 2
+      - 3
+  - question: Which mode is used for copying and pasting texts?
+    answers:
+      - - text: normal
+          modifiers:
+            - IC
+  - question: Which of the following key combos should be pressed to go from insert mode to normal mode ?
+    options:
+      - Esc
+      - Ctrl + C
+      - Ctrl + [
+      - Ctrl + Esc
+      - Enter
+      - Alt
+    answers:
+      - 0
+      - 1
+      - 2
