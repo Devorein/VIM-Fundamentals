@@ -1,0 +1,15 @@
+subject: Vim
+title: Macros
+questions:
+  - question: Which character enables the macro mode ?
+    answers:
+      - - text: q
+  - question: Which character exits the macro mode ?
+    answers:
+      - - text: q
+  - question: Replay the macro stored in a
+    answers:
+      - - text: "@a"
+  - question: Replay the macro stored in a 100 times
+    answers:
+      - - text: "100@a"

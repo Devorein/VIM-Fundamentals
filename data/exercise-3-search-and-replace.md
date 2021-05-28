@@ -17,7 +17,7 @@ Re-search `error`
 
 error
 
-But you can do more! try searching `/err.*or<CR>`
+But you can do more! try searching `/err.*or<`
 
 errooentuhoneuhnoteuhnotehuor
 
@@ -26,7 +26,7 @@ errooentuhoneuhnoteuhnotehuor
 
 ### Search and Replace
 replace "foo" with "baz" by typing `:s/foo/baz<CR>`
-foo bar baz
+foo foo baz
 
 Try again but notice that it only replaces one foo at a time.  
 foo foo foo foo
@@ -44,10 +44,10 @@ foo foo foo foo
 function foo() {
     const a = "foo";
     const b = [
-        "foo",
-        "foo",
-        "foo",
-        "foo",
+        "bar",
+        "bar",
+        "bar",
+        "bar",
     ];
     if ("foo") {
         return "foo";
@@ -56,7 +56,7 @@ function foo() {
 }
 ```
 #### Full File
-Lets execute `:%s/foo/bar/gc`, but first exit without saving `:q!` and reopen
+Lets execute `:%s/foo/foo/gc`, but first exit without saving `:q!` and reopen
 this file
 
 #### But what about full project find and replace
