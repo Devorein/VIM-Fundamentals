@@ -26,3 +26,15 @@ questions:
   - question: Delete 6 lines downwards by selecting it
     answers:
       - - text: V6jd
+  - question: Yank 6 lines upwards
+    answers:
+      - - text: y6k
+  - question: Yank and paste 6 lines downwards
+    answers:
+      - - text: y6jp
+  - question: Select 6 lines downwards and yank
+    answers:
+      - - text: V6jy
+  - question: Select 6 lines upwards, yank and paste
+    answers:
+      - - text: V6kyp

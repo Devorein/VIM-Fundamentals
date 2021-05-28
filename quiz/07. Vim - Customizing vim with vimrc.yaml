@@ -1,0 +1,15 @@
+subject: Vim
+title: Customizing vim with vimrc
+questions:
+  - question: Does vim save settings after closing file ?
+    answers:
+      - 0
+    options:
+      - False
+      - True
+  - question: What is the file name for a vim configuration file?
+    answers:
+      - - text: .vimrc
+  - question: Write the command to show line numbers in a .vimrc file
+    answers:
+      - - text: set number
