@@ -1,0 +1,39 @@
+subject: Vim
+title: Delete, Yank, Paste & Visual Mode
+questions:
+  - question: Which keys must be pressed to delete a line?
+    answers:
+      - - text: dd
+  - question: Which key must be pressed to undo last action ?
+    answers:
+      - - text: u
+  - question: Which keys are used to yank a line ?
+    answers:
+      - - text: yy
+  - question: Which keys are used to yank and paste a line below ?
+    answers:
+      - - text: yyp
+  - question: Which keys are used to yank and paste a line above ?
+    answers:
+      - - text: yyP
+  - question: Which key is used to enter into the visual mode?
+    answers:
+      - - text: v
+  - question: Which key is used to enter into the visual line mode?
+    answers:
+      - - text: V
+  - question: Which key combo is used to copy and paste an entire line ?
+    answers:
+      - - text: Vyp
+  - question: Write the key combo to copy and paste 3 characters of a line ?
+    answers:
+      - - text: vlllyp
+  - question: In vim when is a deleted line yanked ?
+    options:
+      - True
+      - False
+    answers:
+      - 0
+  - question: Which command is used to go to the delete and yank history ?
+    answers:
+      - - :reg

@@ -18,12 +18,13 @@ delete me 4
 ### Yank and paste.  yy to yank line, p to paste line below, P above
 yank me and paste below (yyp)
 yank me and paste above (yyP)
+yank me and paste above (yyP)
 
 ### Visual Mode
 #### Visual Mode
 Highlight part of this line by pressing v, then navigate around
 escape to leave visual mode
-
+eschelloworldape
 #### Visual Line Mode
 Highlight this line by pressing V, then navigate around
 escape to leave visual mode
