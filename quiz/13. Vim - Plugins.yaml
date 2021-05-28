@@ -1,0 +1,27 @@
+title: Plugins
+subject: Vim
+questions:
+  - question: Which language is used to write vim plugins?
+    options:
+      - viml
+      - lua
+    answers:
+      - 0
+  - question: Write the command to save all the plugins at '~/.vim/plugins'
+    answers:
+      - - text: call plug#begin('~/.vim/plugins')
+  - question: Which of the following is the correct format to load a plugin ?
+    answers:
+      - 0
+      - 1
+    options:
+      - Plug 'github_username/github_repo'
+      - Plug 'https://github.com/github_username/github_repo'
+      - Plugin 'github_username/github_repo'
+      - Plugin 'https://github.com/github_username/github_repo'
+  - question: Write the command to end the plug statement
+    answers:
+      - - text: call plug#end()
+  - question: map `:Giles` command to Ctrl + P
+    answers:
+      - - text: nnoremap <C p> :GFiles<CR>
