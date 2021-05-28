@@ -1,0 +1,16 @@
+title: Files & Navigations - Marks
+subject: Vim
+questions:
+  - question: Create a mark using A
+    answers:
+      - - text: mA
+  - question: Move to the mark A
+    answers:
+      - - text: "'A"
+  - question: How many types of marks are there?
+    options:
+      - 2
+      - 3
+      - 4
+    answers:
+      - 0
