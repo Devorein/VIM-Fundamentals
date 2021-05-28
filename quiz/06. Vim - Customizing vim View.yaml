@@ -1,0 +1,28 @@
+title: Customizing vim View
+subject: Vim
+questions:
+  - question: Write the command to set scrolloff to 10
+    answers:
+      - - text: :set scrolloff=10
+  - question: Write the command to delete seven consecutive lines?
+    answers:
+      - - text: 7dd
+  - question: Write the command to set line numbers ?
+    answers:
+      - - text: :set number
+  - question: Write the command to set relative line numbers ?
+    answers:
+      - - text: :set relativenumber
+        - text: :set rnu
+  - question: Delete 6 lines upwards
+    answers:
+      - - text: d6k
+  - question: Select 6 lines upward
+    answers:
+      - - text: V6k
+  - question: Move 6 lines downwards
+    answers:
+      - - text: 6j
+  - question: Delete 6 lines downwards by selecting it
+    answers:
+      - - text: V6jd
