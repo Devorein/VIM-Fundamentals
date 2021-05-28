@@ -1,0 +1,21 @@
+title: Insert Mode
+subject: Vim
+questions:
+  - question: Which key is used to go to the insert mode and move cursor to the left ?
+    answers:
+      - - text: i
+  - question: Which key is used to go to the insert mode and move cursor to the right ?
+    answers:
+      - - text: a
+  - question: Which key is used to go to the insert mode and move cursor to the first non space character of the line ?
+    answers:
+      - - text: I
+  - question: Which key is used to go to the insert mode and move cursor to the end of the line ?
+    answers:
+      - - text: A
+  - question: Which key is used to go to the insert mode by creating a new line above and respecting the current indentation ?
+    answers:
+      - - text: o
+  - question: Which key is used to go to the insert mode by creating a new line below and respecting the current indentation ?
+    answers:
+      - - text: O
