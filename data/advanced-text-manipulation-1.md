@@ -1,6 +1,6 @@
 ---
 path: "/search-and-replace"
-title: "Search And Replace"
+topic: "Search And Replace"
 order: "50A"
 section: "Advanced Text Manipulation"
 description: "Search and replace.  Regex licences may be required."

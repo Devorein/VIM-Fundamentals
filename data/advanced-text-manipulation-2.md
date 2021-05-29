@@ -1,6 +1,6 @@
 ---
 path: "/macros"
-title: "Macros"
+topic: "Macros"
 order: "51A"
 section: "Advanced Text Manipulation"
 description: "Macros.  Yes, they seem more confusing than they are."

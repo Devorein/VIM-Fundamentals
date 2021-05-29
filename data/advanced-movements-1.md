@@ -1,6 +1,6 @@
 ---
 path: "/adv-motions"
-title: "Advanced Motions"
+topic: "Advanced Motions"
 order: "54A"
 section: "Advanced Text Manipulation"
 description: "And you thawght you knew Motions..."

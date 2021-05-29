@@ -1,6 +1,6 @@
 ---
 path: "/vim-my-way"
-title: "Vim My Way"
+topic: "Vim My Way"
 order: "9A"
 description: "Ok, so vim looked pretty ugly.  Lets make it feel the way we want it!"
 section: "The VimRC"

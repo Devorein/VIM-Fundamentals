@@ -1,6 +1,6 @@
 ---
 path: "/registers"
-title: "Registers"
+topic: "Registers"
 order: "52A"
 section: "Advanced Text Manipulation"
 description: "Registers.  Definitely hard to imagine them not being hard."

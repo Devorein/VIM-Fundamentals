@@ -1,6 +1,6 @@
 
 path: "/pit-stop"
-title: "Pit Stop"
+topic: "Pit Stop"
 order: "53A"
 section: "Advanced Text Manipulation"
 description: "There has been a lot of info.  Lets recap!"

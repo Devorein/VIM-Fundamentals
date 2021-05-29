@@ -1,6 +1,6 @@
 ---
 path: "/exercise-1"
-title: "dyp"
+topic: "dyp"
 order: "70A"
 section: "Misc Content"
 description: "This is the basic movement and editing of text"

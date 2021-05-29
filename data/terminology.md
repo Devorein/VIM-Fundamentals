@@ -1,6 +1,6 @@
 ---
 path: "/terms"
-title: "The Terminology"
+topic: "The Terminology"
 order: "2A"
 description: "This goes over some basic vocabulary that will be used"
 section: "Introduction"

@@ -1,6 +1,6 @@
 ---
 path: "/your-first-plugin"
-title: "First Plugin"
+topic: "First Plugin"
 order: "60A"
 section: "Your First Plugin"
 description: "Time to learn viml."

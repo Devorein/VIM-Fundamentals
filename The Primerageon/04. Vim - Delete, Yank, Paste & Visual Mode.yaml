@@ -1,5 +1,5 @@
 subject: Vim
-title: Delete, Yank, Paste & Visual Mode
+topic: Delete, Yank, Paste & Visual Mode
 questions:
   - question: Which keys must be pressed to delete a line?
     answers:

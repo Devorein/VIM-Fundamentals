@@ -1,6 +1,6 @@
 ---
 path: "/plugins"
-title: "Plugins"
+topic: "Plugins"
 order: "30A"
 section: "Plugins"
 description: "Lets beef up the RC!"

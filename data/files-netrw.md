@@ -1,6 +1,6 @@
 ---
 path: "/files-netrw"
-title: "Files and Navigations - NetRW"
+topic: "Files and Navigations - NetRW"
 order: "12A"
 section: "Navigation"
 description: "Coconut oil in hand, you are ready to navigate some files with NetRW."

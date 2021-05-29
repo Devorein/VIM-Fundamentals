@@ -1,6 +1,6 @@
 ---
 path: "/opening-vim"
-title: "Opening Vim"
+topic: "Opening Vim"
 order: "4A"
 description: "Lets open vim for the first time!"
 section: "Basics"

@@ -1,6 +1,6 @@
 ---
 path: "/files-recap"
-title: "Files and Navigations - Recap"
+topic: "Files and Navigations - Recap"
 order: "17A"
 section: "Navigation"
 description: "Coconut oil in hand, you are ready to navigate some files with e."

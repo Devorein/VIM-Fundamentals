@@ -1,6 +1,6 @@
 ---
 path: "/color-my-pencils"
-title: "Color My Pencils"
+topic: "Color My Pencils"
 order: "10A"
 description: "Lets set some colorschemes"
 section: "The VimRC"

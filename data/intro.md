@@ -1,6 +1,6 @@
 ---
 path: "/intro"
-title: "Introduction"
+topic: "Introduction"
 order: "1A"
 section: "Introduction"
 description: "The gentle introduction into vim that will blow your mind and cover you in coconut oil."

@@ -1,6 +1,6 @@
 ---
 path: "/quickfix"
-title: "Quickfix Intro"
+topic: "Quickfix Intro"
 order: "40A"
 section: "Quickfix Lists"
 description: "One of the last components of the vim experience."

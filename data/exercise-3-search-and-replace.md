@@ -1,6 +1,6 @@
 ---
 path: "/exercise-3"
-title: "Search and Replace"
+topic: "Search and Replace"
 order: "72A"
 section: "Misc Content"
 description: "Search and Replace!"

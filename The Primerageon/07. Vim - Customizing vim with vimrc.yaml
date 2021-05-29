@@ -1,5 +1,5 @@
 subject: Vim
-title: Customizing vim with vimrc
+topic: Customizing vim with vimrc
 questions:
   - question: Does vim save settings after closing file ?
     answers:

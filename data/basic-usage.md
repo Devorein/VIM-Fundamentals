@@ -1,6 +1,6 @@
 ---
 path: "/basic-usage"
-title: "Using Vim"
+topic: "Using Vim"
 order: "5A"
 description: "Let's use vim for the first time!"
 section: "Basics"

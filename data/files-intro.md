@@ -1,6 +1,6 @@
 ---
 path: "/files"
-title: "Files and Navigations"
+topic: "Files and Navigations"
 order: "11A"
 section: "Navigation"
 description: "Coconut oil in hand, you are ready to navigate some files."

@@ -1,6 +1,6 @@
 ---
 path: "/exercise-5"
-title: "Registers"
+topic: "Registers"
 order: "74A"
 section: "Misc Content"
 description: "Registers.  Definitely hard to imagine them not being hard."

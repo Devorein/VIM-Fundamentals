@@ -1,6 +1,6 @@
 ---
 path: "/exercise-0"
-title: "hjkl-x"
+topic: "hjkl-x"
 order: "69A"
 section: "Misc Content"
 description: "This is the first exercise to try out."

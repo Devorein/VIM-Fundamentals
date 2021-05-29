@@ -1,6 +1,6 @@
 ---
 path: "/exercise-6"
-title: "Advanced Motions"
+topic: "Advanced Motions"
 order: "75A"
 section: "Misc Content"
 description: "Motions 201"

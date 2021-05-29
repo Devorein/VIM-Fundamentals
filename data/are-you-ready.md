@@ -1,6 +1,6 @@
 ---
 path: "/are-you-ready"
-title: "Are You Ready?"
+topic: "Are You Ready?"
 order: "3A"
 description: "The final hurrah! before diving into vim!"
 section: "Introduction"
