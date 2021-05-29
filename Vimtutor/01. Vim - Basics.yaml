@@ -1,0 +1,73 @@
+title: Basics
+subject: Vim
+questions:
+  - question: Which of the following is correct ?
+    options:
+      - j(down), k(up), l(right), h(left)
+      - j(down), k(up), l(left), h(right)
+      - j(left), k(right), l(up), h(down)
+      - j(right), k(left), l(down), h(up)
+    answers:
+      - 0
+  - question: Which of the following keys can be pressed to go to the Normal mode ?
+    options:
+      - ctrl + c
+      - esc
+      - ctrl + [
+      - ctrl + w
+      - ctrl
+    answers:
+      - 0
+      - 1
+      - 2
+  - question: Quit the current vim session without saving the file
+    answers:
+      - - text: :q!
+  - question: Open the file test.md with vim
+    answers:
+      - - text: vim test.md
+  - question: Which operator is used to delete a character under the cursor ?
+    answers:
+      - - text: x
+  - question: Write the command to delete `y` from `<cursor>deleteyfromthis`.
+    answers:
+      - - text: llllllx
+  - question: Which characters are used to go into the insert mode ?
+    answers:
+      - 0
+      - 1
+      - 2
+    options:
+      - A
+      - a
+      - i
+      - n
+      - s
+      - e
+  - question: Where does the insert mode(i) start ?
+    answers:
+      - 0
+    options:
+      - before the cursor
+      - after the cursor
+  - question: Which character is used to start the insert mode at the end of the line ?
+    answers:
+      - 0
+    options:
+      - A
+      - i
+      - a
+      - e
+      - ce
+      - cw
+  - question: Where does the insert mode(a) start ?
+    answers:
+      - 0
+    options:
+      - after the cursor
+      - before the cursor
+  - question: Write the command to save and exit a file
+    answers:
+      - - text: :wq
+  
+  
