@@ -36,4 +36,6 @@ questions:
       - 0
   - question: Which command is used to go to the delete and yank history ?
     answers:
-      - - :reg
+      - - text: :reg
+    difficulty:
+      - Intermediat

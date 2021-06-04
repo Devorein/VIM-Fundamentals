@@ -1,0 +1,61 @@
+topic: Delete Commands
+subject: Vim
+questions:
+  - question: Write the command to delete until the start of next word, excluding its first character
+    answers:
+      - - text: dw
+          explanation: For example `del<cursor>ete from` will result in `delform`
+  - question: Write the command to delete the entire line starting from the cursor
+    answers:
+      - D
+  - question: In the command `dw`, which one is an operator and which one is a motion ?
+    options:
+      - d operator, w motion
+      - d motion, w operator
+      - d operator, w operator
+      - d motion, w motion
+    answers:
+      - 0
+  - question: Write the command to delete to the end of the current word including its last character
+    answers:
+      - - text: de
+          explanation: For example `del<cursor>ete from` will result in `del form`
+  - question: Write the command to move 5 to the left
+    answers:
+      - - hhhhh
+        - 5h
+  - question: Write the command to move to the start of the line
+    answers:
+      - 0
+  - question: |
+      use a single command and don't use more than three characters
+      **Given word** `a b <cursor>C D E F g h`
+      **Convert to** `a b <cursor>g h`
+    answers:
+      - d4w
+  - question: |
+      use a single command and don't use more than three characters
+      **Given word** `a b <cursor>C D E F g h`
+      **Convert to** `a b  <cursor>g h`
+    answers:
+      - d4e
+  - question: Write the command to delete a whole line
+    answers:
+      - dd
+  - question: Write the command to delete two lines
+    answers:
+      - 2dd
+  - question: Which command is used to undo the last command ?
+    answers:
+      - u
+  - question: Which command is used to undo a whole line ?
+    answers:
+      - U
+  - question: Which command is used to redo the previous commands ?
+    answers:
+      - 0
+    options:
+      - ctrl+r
+      - ctrl+z
+      - ctrl+y
+      - ctrl+u

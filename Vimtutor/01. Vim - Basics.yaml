@@ -22,16 +22,18 @@ questions:
       - 2
   - question: Quit the current vim session without saving the file
     answers:
-      - - text: :q!
+      - :q!
   - question: Open the file test.md with vim
     answers:
-      - - text: vim test.md
+      - vim test.md
   - question: Which operator is used to delete a character under the cursor ?
     answers:
-      - - text: x
+      - x
   - question: Write the command to delete `y` from `<cursor>deleteyfromthis`.
     answers:
-      - - text: llllllx
+      - - llllllx
+        - fyx
+        - 6lx
   - question: Which characters are used to go into the insert mode ?
     answers:
       - 0
@@ -68,6 +70,4 @@ questions:
       - before the cursor
   - question: Write the command to save and exit a file
     answers:
-      - - text: :wq
-  
-  
+      - :wq

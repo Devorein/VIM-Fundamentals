@@ -8,6 +8,7 @@ questions:
       - cache
     answers:
       - 0
+    time_allocated: 400
   - question: Which of the following displays a buffer ?
     answers:
       - - text: window
