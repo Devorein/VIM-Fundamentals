@@ -32,8 +32,10 @@ questions:
   - question: Write the command to delete `y` from `<cursor>deleteyfromthis`.
     answers:
       - - llllllx
-        - fyx
-        - 6lx
+        - text: fyx
+          explanation: This command finds the first y and puts the cursor there, while x deletes it
+        - text: 6lx
+          explanation: 6l moves the cursor to the right 6 times and x delete the character
   - question: Which characters are used to go into the insert mode ?
     answers:
       - 0
@@ -52,6 +54,8 @@ questions:
     options:
       - before the cursor
       - after the cursor
+    hints:
+      - A is short for append
   - question: Which character is used to start the insert mode at the end of the line ?
     answers:
       - 0
