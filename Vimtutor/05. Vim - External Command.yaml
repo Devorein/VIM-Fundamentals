@@ -1,0 +1,26 @@
+topic: External Command
+subject: Vim
+questions:
+  - question: Write the command to run `ls` command from vim
+    answers:
+      - ":!ls"
+  - question: Save the current file with the name `TEST`
+    answers:
+      - :w TEST
+  - question: Remove `TEST` file directly from vim in unix
+    answers:
+      - :!rm TEST
+  - question: Write the selected line to a file named `TEST` from vim
+    answers:
+      - text: :'<,'>w TEST
+        explanation: ": for the command '<,'> to indicate the selected words and w to write to a file"
+  - question: Which command is used to go into the visual line mode ?
+    answers:
+      - V
+  - question: Write the content of a file named `TEST` in the current file below the cursor
+    answers:
+      - :r TEST
+  - question: Write the output of the `ls` command in the current file below the cursor
+    answers:
+      - :r !ls
+  - question:
