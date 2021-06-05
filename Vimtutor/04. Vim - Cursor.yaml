@@ -37,7 +37,7 @@ questions:
   - question: Which character is used to go into the search mode ?
     answers:
       - "/"
-  - question: Write the command to search for error in the file
+  - question: Write the command to search for `error` in the file
     answers:
       - /error
   - question: Which command is used to go the next matched phrase when searched in **forward direction**?
@@ -49,10 +49,10 @@ questions:
   - question: Which command is used to go into the search mode in backward direction ?
     answers:
       - "?"
-  - question: Which command is used to go the next matched phrase when searched in **forward direction**?
+  - question: Which command is used to go the next matched phrase when searched in **backward direction**?
     answers:
       - N
-  - question: Which command is used to go the previous matched phrase when searched in **forward direction**?
+  - question: Which command is used to go the previous matched phrase when searched in **backward direction**?
     answers:
       - n
   - question: Which character is used to go to the matching parenthesis character ?
@@ -66,17 +66,20 @@ questions:
       - :s/thee/the/g
   - question: Write the command to change all the instances of the word `thee` to `the` in the whole file **without confirmation**?
     answers:
-      - :%s/thee/the/g
+      - text: :%s/thee/the/g
+        explanation: "%s to denote whole file search, g to change all matched character"
   - question: Write the command to change all the instances of the word `thee` to `the` in the whole file **with confirmation**?
     answers:
-      - :%s/thee/the/gc
+      - text: :%s/thee/the/gc
+        explanation: "%s to denote whole file search, g to change all matched character, c for confirmation for each changes"
   - question: Write the command to change all the instances of the word `thee` to `the` between the lines 1 and 5 ?
     answers:
-      - :1,5s/thee/the/g
+      - text: :1,5s/thee/the/g
+        explanation: ": to start the command, 1,5 to denote the range, g to change all matched character"
   - question: Write the command to move to the line number 12
     answers:
       - 12G
-  - question: Write the command to move to the end of the line
+  - question: Write the command to move to the end of the file
     answers:
       - G
   - question: Write the command to move to the first line

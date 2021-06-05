@@ -17,7 +17,7 @@ questions:
       - :q
   - question: Write the command to search for help related to the `hls` command
     answers:
-      - :help nohls
+      - :help hls
   - question: Where is vimrc file located?
     answers:
       - 0

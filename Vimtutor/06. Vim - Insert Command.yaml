@@ -24,7 +24,8 @@ questions:
       - y
   - question: Which command is used to yank a single word
     answers:
-      - yw
+      - - yw
+        - ye
   - question: Write the command to ignore case
     answers:
       - :set ic
@@ -34,7 +35,8 @@ questions:
         - :set hls
   - question: Write the command to disable case ignoring
     answers:
-      - :set noic
+      - - text: :set noic
+          explanation: Remember this disable command requires the `:set`, while `:nohls` or `:nois` don't
   - question: Write the command to set incremental searching
     answers:
       - - :set incsearch
@@ -49,4 +51,4 @@ questions:
         - :noincsearch
   - question: Search for the word `thee` by ignoring casing without setting the ignore case command
     answers:
-      - /ignore\c
+      - /thee\c
