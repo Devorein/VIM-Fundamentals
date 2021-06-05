@@ -43,6 +43,10 @@ questions:
     answers:
       - - :nohlsearch
         - :nohls
+  - question: Write the command to remove incremental searching
+    answers:
+      - - :nois
+        - :noincsearch
   - question: Search for the word `thee` by ignoring casing without setting the ignore case command
     answers:
       - /ignore\c

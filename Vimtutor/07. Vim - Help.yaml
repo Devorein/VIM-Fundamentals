@@ -1,0 +1,27 @@
+topic: Help
+subject: Vim
+questions:
+  - question: Type the command to enter help menu
+    answers:
+      - :help
+  - question: Which of the following command is used to jump from one help window to another
+    answers:
+      - 0
+    options:
+      - ctrl + w
+      - ctrl + n
+      - ctrl + m
+      - ctrl + l
+  - question: Write the command to close the help window ?
+    answers:
+      - :q
+  - question: Write the command to search for help related to the `hls` command
+    answers:
+      - :help nohls
+  - question: Where is vimrc file located?
+    answers:
+      - 0
+    options:
+      - ~/.vimrc
+      - ~/config/.vimrc
+      - ~/vim.rc
