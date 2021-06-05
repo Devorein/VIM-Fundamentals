@@ -1,0 +1,27 @@
+topic: Put Commands
+subject: Vim
+questions:
+  - question: Which character is used to put the previously deleted text after the cursor ?
+    answers:
+      - p
+  - question: Which character is used to put the previously deleted text before the cursor ?
+    answers:
+      - P
+  - question: Which character is used to replace the character at the cursor with another one ?
+    answers:
+      - r
+  - question: Which command is used to delete from the cursor until the end of the word and go into **insert mode** as well ?
+    answers:
+      - ce
+    hints:
+      - It follows the same convention as regular delete(d) operator
+  - question: Which command is used to delete from the cursor until the end of the line and go into **insert mode** as well ?
+    answers:
+      - C
+    hints:
+      - It follows the same convention as regular delete(d) operator
+  - question: Write the command to delete 2 words from the cursor and go to insert mode?
+    answers:
+      - c2e
+    hints:
+      - It follows the same convention as regular delete(d) operator

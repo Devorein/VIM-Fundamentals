@@ -5,7 +5,7 @@ questions:
     answers:
       - - text: dw
           explanation: For example `del<cursor>ete from` will result in `delform`
-  - question: Write the command to delete the entire line starting from the cursor
+  - question: Write the command to delete the rest of the line starting from the cursor
     answers:
       - D
   - question: In the command `dw`, which one is an operator and which one is a motion ?
