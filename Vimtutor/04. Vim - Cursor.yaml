@@ -1,0 +1,84 @@
+title: Cursor
+subject: Vim
+questions:
+  - question: Which command is pressed to show the current location in the file and the file status ?
+    options:
+      - ctrl + g
+      - ctrl + a
+      - ctrl + s
+      - ctrl + l
+    answers:
+      - 0
+  - question: Which of the following information about file are shown in the status ?
+    options:
+      - Name of the file
+      - Current line number
+      - Total line number
+      - Total modified lines
+      - Total character
+    answers:
+      - 0
+      - 1
+      - 2
+  - question: Which command should be activated to set the cursor position in the lower right corner of the screen ?
+    answers:
+      - :set ruler
+  - question: What does the cursor position shows ?
+    options:
+      - Line number
+      - Column number
+      - Ratio of current and total line numbers
+      - Total lines edited
+      - Total characters
+    answers:
+      - 0
+      - 1
+      - 2
+  - question: Which character is used to go into the search mode ?
+    answers:
+      - "/"
+  - question: Write the command to search for error in the file
+    answers:
+      - /error
+  - question: Which command is used to go the next matched phrase when searched in **forward direction**?
+    answers:
+      - n
+  - question: Which command is used to go the previous matched phrase when searched in **forward direction**?
+    answers:
+      - N
+  - question: Which command is used to go into the search mode in backward direction ?
+    answers:
+      - "?"
+  - question: Which command is used to go the next matched phrase when searched in **forward direction**?
+    answers:
+      - N
+  - question: Which command is used to go the previous matched phrase when searched in **forward direction**?
+    answers:
+      - n
+  - question: Which character is used to go to the matching parenthesis character ?
+    answers:
+      - "%"
+  - question: Write the command to change the first instance of the word `thee` to `the` in the current line ?
+    answers:
+      - :s/thee/the
+  - question: Write the command to change all the instances of the word `thee` to `the` in the current line ?
+    answers:
+      - :s/thee/the/g
+  - question: Write the command to change all the instances of the word `thee` to `the` in the whole file **without confirmation**?
+    answers:
+      - :%s/thee/the/g
+  - question: Write the command to change all the instances of the word `thee` to `the` in the whole file **with confirmation**?
+    answers:
+      - :%s/thee/the/gc
+  - question: Write the command to change all the instances of the word `thee` to `the` between the lines 1 and 5 ?
+    answers:
+      - :1,5s/thee/the/g
+  - question: Write the command to move to the line number 12
+    answers:
+      - 12G
+  - question: Write the command to move to the end of the line
+    answers:
+      - G
+  - question: Write the command to move to the first line
+    answers:
+      - gg
