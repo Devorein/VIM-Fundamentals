@@ -4,7 +4,7 @@ questions:
   - question: Write the command to delete until the start of next word, excluding its first character
     answers:
       - - text: dw
-          explanation: For example `del<cursor>ete from` will result in `delform`
+          explanation: For example `del<cursor>ete from` will result in `del<cursor>form`
   - question: Write the command to delete the rest of the line starting from the cursor
     answers:
       - D
@@ -19,7 +19,7 @@ questions:
   - question: Write the command to delete to the end of the current word including its last character
     answers:
       - - text: de
-          explanation: For example `del<cursor>ete from` will result in `del form`
+          explanation: For example `del<cursor>ete from` will result in `del <cursor>form`
   - question: Write the command to move 5 to the left
     answers:
       - - hhhhh
