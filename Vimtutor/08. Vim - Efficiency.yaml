@@ -1,0 +1,18 @@
+topic: Efficiency
+subject: Vim
+questions:
+  - question: Write the command to move your cursor in middle of the screen
+    answers:
+      - M
+  - question: Write the command to move your cursor at the end of the screen
+    answers:
+      - L
+  - question: Write the efficent way to remove multiple words
+    options:
+      - Search and find the words, then use 'dw' command
+      - Use search and replace (regular expression) in vim
+      - select the words and delete
+      - use motion commands and then use delete command
+    answers:
+      - 0
+      - 1
