@@ -23,4 +23,3 @@ questions:
   - question: Write the output of the `ls` command in the current file below the cursor
     answers:
       - :r !ls
-  - question:

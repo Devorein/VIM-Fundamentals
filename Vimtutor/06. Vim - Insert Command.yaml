@@ -1,0 +1,48 @@
+topic: Insert Commands
+subject: Vim
+questions:
+  - question: Write the command to open up a line below the cursor and go to insert mode
+    answers:
+      - o
+  - question: Write the command to open up a line above the cursor and go to insert mode
+    answers:
+      - O
+  - question: Which operator is used to move to the last letter of the current word
+    answers:
+      - e
+  - question: Which operator is used to move to the last letter of the current word and go into insert mode ?
+    answers:
+      - a
+  - question: Which operator is used to move to the last letter of the current line and go into insert mode ?
+    answers:
+      - A
+  - question: Which operator is used to replace more than one character ?
+    answers:
+      - R
+  - question: Which operator is used to yank ?
+    answers:
+      - y
+  - question: Which command is used to yank a single word
+    answers:
+      - yw
+  - question: Write the command to ignore case
+    answers:
+      - :set ic
+  - question: Write the command to set search highlights
+    answers:
+      - - :set hlsearch
+        - :set hls
+  - question: Write the command to disable case ignoring
+    answers:
+      - :set noic
+  - question: Write the command to set incremental searching
+    answers:
+      - - :set incsearch
+        - :set is
+  - question: Write the command to remove highlighting of matches
+    answers:
+      - - :nohlsearch
+        - :nohls
+  - question: Search for the word `thee` by ignoring casing without setting the ignore case command
+    answers:
+      - /ignore\c
