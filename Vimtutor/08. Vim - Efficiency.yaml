@@ -1,0 +1,9 @@
+topic: Efficiency
+subject: Vim
+questions:
+  - question: Write the command to move your cursor in middle of the screen
+    answers:
+      - M
+  - question: Write the command to move your cursor at the end of the screen
+    answers:
+      - L
